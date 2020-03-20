@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 "Alert"</title>
+    <style>
+    body
+    {
+        background-color: blueviolet;
+        color: whitesmoke;
+        font-family: Helvetica, Arial, sans-serif;
+    }
+    strong
+    {
+        background-color: goldenrod;
+    }
+    </style>
+</head>
+<body>
+    <p>Primer práctica HTML a las <strong>12:50 a.m.</strong> </p>
+    <script>
+        var x = 1
+        var y = 1
+        var z = x + y;
+        document.write ("El valor de z es " + z);
+    </script>
+</body>
+</html>
